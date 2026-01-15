@@ -35,3 +35,5 @@ graph TD
     Bastion --> ASG
     ASG -->|Outbound Updates| NAT
     ASG -->|Access| S3[Private S3 Bucket]
+
+
