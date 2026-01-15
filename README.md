@@ -1,6 +1,4 @@
-# aws-devops-mcp-stack
-🚀 A production-grade 3-Tier AWS Architecture with Terraform and AI Agents (MCP) for automated auditing
-
+# 🚀 AWS DevOps Automation Stack: 3-Tier Architecture & AI Agents
 
 ![Terraform](https://img.shields.io/badge/Terraform-v1.5+-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -35,5 +33,3 @@ graph TD
     Bastion --> ASG
     ASG -->|Outbound Updates| NAT
     ASG -->|Access| S3[Private S3 Bucket]
-
-
